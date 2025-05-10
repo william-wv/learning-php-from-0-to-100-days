@@ -1,5 +1,4 @@
 # learning-php-from-0-to-100-days
-=======
 # 🚀 Desafio: 100 Dias de PHP
 
 Bem-vindo(a) ao meu desafio pessoal de **100 dias aprendendo PHP**!  
