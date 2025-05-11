@@ -21,7 +21,8 @@ A ideia é evoluir diariamente, praticando e registrando o que aprendo com a lin
 |-----|----------------|--------|
 | 1   | Introdução ao PHP, sintaxe básica, `echo`, variáveis ,listas, `foreach`, condicionais e booleanos | ✅ Concluído |
 | 2   | Filtros, funçoes anônimas, array_filter | ✅ Concluído |
-| 3   | _Em breve..._  | ⏳ Em andamento |
+| 2   | Usando Tailwind | ❌ Não Iniciado |
+| 4   | _Em breve..._  | ⏳ Em andamento |
 ---
 
 ## 📁 Estrutura do Projeto esta sendo dividido por branch no github
