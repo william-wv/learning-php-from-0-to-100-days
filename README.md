@@ -1,5 +1,5 @@
 # learning-php-from-0-to-100-days
-=======
+
 # 🚀 Desafio: 100 Dias de PHP
 
 Bem-vindo(a) ao meu desafio pessoal de **100 dias aprendendo PHP**!  
@@ -20,8 +20,9 @@ A ideia é evoluir diariamente, praticando e registrando o que aprendo com a lin
 
 | Dia | Tópico/Projeto | Status |
 |-----|----------------|--------|
-| 1   | Introdução ao PHP, sintaxe básica, `echo`, variáveis ,listas, foreach, condicionais e booleanos | ✅ Concluído |
-| 2   | _Em breve..._  | ⏳ Em andamento |
+| 1   | Introdução ao PHP, sintaxe básica, `echo`, variáveis ,listas, `foreach`, condicionais e booleanos | ✅ Concluído |
+| 2   | Filtros, funçoes anônimas, array_filter e Iniciando no Tailwind | ✅ Concluído |
+| 3   | _Em breve..._  | ⏳ Em andamento |
 
 ---
 
