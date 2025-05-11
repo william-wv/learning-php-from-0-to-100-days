@@ -20,30 +20,60 @@
 
   $projetos = [
     [
-      'nome' => 'Meu portfólio',
+      'nome' => 'Meu portfólio PHP',
       'finalizado' => false,
-      'dataDoProjeto' => "2025-05-10",
+      'ano' => 2025,
     ],
     [
       'nome' => 'Marketplace',
       'finalizado' => true,
-      'dataDoProjeto' => "2025-04-20",
+      'ano' => 2025,
     ],
     [
       'nome' => 'AluraBooks',
       'finalizado' => true,
-      'dataDoProjeto' => "2025-03-15",
+      'ano' => 2024,
+    ],
+    [
+      'nome' => 'Meu portfólio Vue',
+      'finalizado' => false,
+      'ano' => 2024,
+    ],
+    [
+      'nome' => 'Meu portifolio HTML/CSS',
+      'finalizado' => true,
+      'ano' => 2023,
+    ],
+    [
+      'nome' => 'Landing Page Vue',
+      'finalizado' => true,
+      'ano' => 2026,
     ]
   ];
-
-  function verifEstaFinalizado($p)
-  {
+  // func anonima
+  $verifEstaFinalizado = function ($p) {
     if ($p['finalizado']) {
       return '<span style="color: green;">✅ Finalizado </span>';
-    } 
-      return '<span style="color: red;">❌ Não finalizado</span>';
-    
+    }
+    return '<span style="color: red;">❌ Não finalizado</span>';
+  };
+
+  function filtro($projetos, $chave,  $valor)
+  {
+
+    $filtrados = [];
+
+    foreach ($projetos as $p) {
+      if ($p[$chave] === $valor) {
+        $filtrados[] = $p;
+      }
+    }
+
+    return $filtrados;
   }
+
+  $pFriltrados2024 = filtro($projetos, 'ano', 2024);
+  $pFriltrados2025 = filtro($projetos, 'ano', 2025);
   ?>
 
   <h1><?= $titulo ?></h1>
@@ -55,25 +85,35 @@
 
   <div>
     <h2>Projetos</h2>
-    <?php foreach ($projetos as $projeto): ?>
-      <h3><?= $projeto['nome'] ?></h3>
-      <ul>
-        <li>Data de início: <?= $projeto['dataDoProjeto'] ?></li>
-        <li>Status: <?=verifEstaFinalizado($projeto); ?></li>
-      </ul>
-      <hr />
-    <?php endforeach; ?>
+    <div style="display:flex">
+      <?php foreach ($projetos as $projeto): ?>
+        <ul>
+          <h3><?= $projeto['nome'] ?></h3>
+          <li>Data de início: <?= $projeto['ano'] ?></li>
+          <li>Status: <?= $verifEstaFinalizado($projeto); ?></li>
+        </ul>
+        <hr />
+      <?php endforeach; ?>
+    </div>
   </div>
 
   <div>
-    <h2>Lista Simples de Nomes dos Projetos</h2>
+    <h2>Projetos 2024</h2>
     <ul>
-      <?php foreach ($projetos as $projeto): ?>
-        <li>Nome: <?= $projeto['nome'] ?></li>
+      <?php foreach ($pFriltrados2024 as $projeto): ?>
+        <li><?= $projeto['nome'] ?> - <?= $verifEstaFinalizado($projeto); ?></li>
       <?php endforeach; ?>
     </ul>
   </div>
 
+  <div>
+    <h2>Projetos 2025</h2>
+    <ul>
+      <?php foreach ($pFriltrados2025 as $projeto): ?>
+        <li><?= $projeto['nome'] ?> - <?= $verifEstaFinalizado($projeto); ?></li>
+      <?php endforeach; ?>
+    </ul>
+  </div>
 </body>
 
 </html>

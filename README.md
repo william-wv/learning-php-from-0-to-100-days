@@ -21,7 +21,7 @@ A ideia é evoluir diariamente, praticando e registrando o que aprendo com a lin
 | Dia | Tópico/Projeto | Status |
 |-----|----------------|--------|
 | 1   | Introdução ao PHP, sintaxe básica, `echo`, variáveis ,listas, `foreach`, condicionais e booleanos | ✅ Concluído |
-| 2   | Filtros, funçoes anônimas, array_filter e Iniciando no Tailwind | ✅ Concluído |
+| 2   | Filtros, funçoes anônimas, array_filter | ✅ Concluído |
 | 3   | _Em breve..._  | ⏳ Em andamento |
 
 ---
