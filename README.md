@@ -24,7 +24,6 @@ A ideia é evoluir diariamente, praticando e registrando o que aprendo com a lin
 | 2   | Filtros, funçoes anônimas, array_filter | ✅ Concluído |
 | 3   | _Em breve..._  | ⏳ Em andamento |
 
----
 
 ## 📁 Estrutura do Projeto esta sendo dividido por branch no github
 
@@ -33,6 +32,6 @@ A ideia é evoluir diariamente, praticando e registrando o que aprendo com a lin
 ├── dia01/
 │   └── index.php
 ├── dia02/
-│   └── ...
+│   └── ..
 ├── README.md
 
