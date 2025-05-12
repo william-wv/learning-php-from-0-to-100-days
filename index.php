@@ -13,31 +13,38 @@
       'nome' => 'Meu portfólio PHP',
       'finalizado' => false,
       'ano' => 2025,
+      'stack' => ["html5","php","tailwind"]
     ],
     [
       'nome' => 'Marketplace',
       'finalizado' => true,
       'ano' => 2025,
+      'stack' => ["Vue.js","bootstrap"]
+
     ],
     [
       'nome' => 'AluraBooks',
       'finalizado' => true,
       'ano' => 2024,
+      'stack' => ["html5","css","javascript"]
     ],
     [
       'nome' => 'Meu portfólio Vue',
       'finalizado' => false,
       'ano' => 2024,
+      'stack' => ["Vue.js"]
     ],
     [
-      'nome' => 'Meu portifolio HTML/CSS',
+      'nome' => 'Cardapio Online',
       'finalizado' => true,
       'ano' => 2023,
+      'stack' => ["html5","css","javascript"]
     ],
     [
       'nome' => 'Landing Page Vue',
       'finalizado' => true,
       'ano' => 2026,
+      'stack' => ["Vue.js"]
     ]
   ];
 
