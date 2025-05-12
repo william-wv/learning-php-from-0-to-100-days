@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meu portifólio</title>
-  <link href="/src/styles.css" rel="stylesheet">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portifólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-900 text-white">
+    <header
+      class="mx-auto max-w-screen-lg px-3 py-6 flex items-center justify-between"
+    >
+      <!-- logo -->
+      <div class="font-bold text-xl text-cyan-600">William Wendling Veiga</div>
+
+      <!-- links -->
+      <div class="">
+        <ul class="font-medium text-gray-200 flex gap-x-3 font">
+          <li><a href="" class="hover:underline">Projetos</a></li>
+          <li><a href="" class="hover:underline">GitHub</a></li>
+          <li><a href="" class="hover:underline">LinkedIn</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-screen-lg min-h-20 text-gray-200 py-3 gap-y-6">
+      <!-- Hero -->
+      <section class="flex gap-x-3">
+        <div class="w-2/3">
+          <h1 class="text-3xl font-bold">Oi, meu nome é William.</h1>
+          <p class="text-xl leading-6 mt-6">
+            Sou um desenvolvedor Front-end onde atualmente estou familiarizado
+            com o framework Vue.js e estou aprendendo PHP e laravel para foco no
+            Back-end.
+          </p>
+
+          <ul class="flex gap-x-3 mt-3">
+            <li>
+              <a href="" class="link">L</a>
+            </li>
+            <li>
+              <a href="" class="link">G</a>
+            </li>
+            <li>
+              <a href="" class="link">Y</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-1/3 flex items-center justify-center">
+          <div class="">
+            foto
+          </div>
+        </div>
+      </section>
+
+      <!-- Projetos -->
+       <section class="space-y-3 py-6">
+        <h2 class="text-2x1 font-bold">Meus Projetos</h2>
+
+        <div class="bg-slate-800 rounded-lg p-3 flex jsutify-between items-center">
+          <div class="w-1/5">
+            foto proj
+          </div>
+          <div class="w-4/5">
+            conteudo
+          </div>
+        </div>
+       </section>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
