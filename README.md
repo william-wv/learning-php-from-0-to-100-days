@@ -22,7 +22,7 @@ A ideia é evoluir diariamente, praticando e registrando o que aprendo com a lin
 | 1   | Introdução ao PHP, sintaxe básica, `echo`, variáveis ,listas, `foreach`, condicionais e booleanos | ✅ Concluído |
 | 2   | Filtros, funçoes anônimas, array_filter | ✅ Concluído |
 | 3   | Usando Tailwind |✅ Concluído |
-| 4   | Desafio Portifólio Dev |  ⏳ Em Andamento |
+| 4   | Desafio Portifólio Dev |  ✅ Concluído  |
 | 5   | Projeto Book Wise  |  ❌ Não Iniciado |
 | 6   | _Em breve..._  | ⏳ Em breve... |
 ---
