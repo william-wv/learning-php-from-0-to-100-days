@@ -23,8 +23,8 @@ A ideia é evoluir diariamente, praticando e registrando o que aprendo com a lin
 | 2   | Filtros, funçoes anônimas, array_filter | ✅ Concluído |
 | 3   | Usando Tailwind |✅ Concluído |
 | 4   | Desafio Portifólio Dev |  ✅ Concluído  |
-| 5   | Projeto Book Wise  |  ⏳ Em andamento |
-| 6   | Banco de Daddos  |  ❌ Não Iniciado |
+| 5   | Projeto Book Wise , estilização e html inicial | ✅ Concluído  |
+| 6   | Projeto Book Wise , variavel global, filtros | ⏳ Em andamento  |
 | 7   | _Em breve..._  | ⏳ Em breve... |
 ---
 
