@@ -22,11 +22,11 @@ require './bd.php'
       </div>
       <ul class="flex space-x-4 jont-bold">
         <li><a class="text-blue-600" href="/">Explorar</a></li>
-        <li><a class="hover:underline" href="/meus-livros.">Meus livros</a></li>
+        <li><a class="hover:underline" href="/meus-livros">Meus livros</a></li>
       </ul>
       <ul>
         <li>
-          <a class="hover:underline" href="/login.php">Fazer login</a>
+          <a class="hover:underline" href="/login">Fazer login</a>
         </li>
       </ul>
     </nav>
