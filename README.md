@@ -24,8 +24,9 @@ A ideia é evoluir diariamente, praticando e registrando o que aprendo com a lin
 | 3   | Usando Tailwind |✅ Concluído |
 | 4   | Desafio Portifólio Dev |  ✅ Concluído  |
 | 5   | Projeto Book Wise , estilização e html inicial | ✅ Concluído  |
-| 6   | Projeto Book Wise , variavel global, filtros | ⏳ Em andamento  |
-| 7   | _Em breve..._  | ⏳ Em breve... |
+| 6   | Projeto Book Wise , variavel global, filtros , views |  ✅ Concluído  |
+| 7   | Projeto Book Wise , controllers, roteador e evitando duplicidade de código | ⏳ Em andamento  |
+| 8   | _Em breve..._  | ⏳ Em breve... |
 ---
 
 ## 📁 Estrutura do Projeto esta sendo dividido por branch no github
